@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="coildeaths:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/coildeaths_jar</output-path>
+    <root id="archive" name="coildeaths.jar">
+      <element id="module-output" name="coildeaths" />
+    </root>
+  </artifact>
+</component>

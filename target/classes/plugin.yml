@@ -1,0 +1,20 @@
+name: CoilDeaths
+version: '1.0-SNAPSHOT'
+main: hillbilly1911.thecoil.coilDeaths.CoilDeaths
+api-version: '1.21'
+load: STARTUP
+authors: [ Hillbilly1911 ]
+description: A plugin to teleport staff to players' death locations.
+website: https://thecoilmc.com/
+
+commands:
+  dc:
+    description: Teleport to a player's death location or view logs.
+    usage: /dc tp <playername>, /dc confirm, /dc cancel, or /dc logs
+permissions:
+  coildeaths.teleport:
+    description: Allows teleporting to players' death locations.
+    default: op
+  coildeaths.logs:
+    description: Allows viewing teleport logs.
+    default: op
